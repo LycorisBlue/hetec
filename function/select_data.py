@@ -21,6 +21,8 @@ def create_dict(parrain, filleul):
                 filleul.remove(valeur)
 
 
+
+
 # Fonction pour récupérer les noms de la table depuis MySQL
 def recuperer_noms_table(nom_table):
     # Se connecter à la base de données MySQL

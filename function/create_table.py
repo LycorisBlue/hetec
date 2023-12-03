@@ -21,11 +21,9 @@ def creer_table():
         create_table_query = f'''
         CREATE TABLE {nom_table} (
             id INT AUTO_INCREMENT PRIMARY KEY,
-            nom VARCHAR(255),
-            niveau VARCHAR(10),
-            img VARCHAR(255),
-            filleul VARCHAR(6),
-            parrain INT
+            parrain VARCHAR(255),
+            filleul VARCHAR(10),
+            relation VARCHAR(255)
         )
         '''
 
